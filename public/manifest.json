@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Waqar Command Center — New Tab",
+  "version": "1.0.0",
+  "description": "Dark cosmic personal Chrome New Tab homepage with real weather, Pomodoro, tasks, calendar, live Windows system monitor, quick tools, GitHub activity, notes, bookmarks, and AI assistant.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "bookmarks",
+    "tabs",
+    "system.cpu",
+    "system.memory",
+    "system.storage"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1/*",
+    "http://localhost/*",
+    "https://api.open-meteo.com/*",
+    "https://geocoding-api.open-meteo.com/*",
+    "https://github-contributions-api.jogruber.de/*",
+    "https://api.github.com/*",
+    "https://api.frankfurter.app/*",
+    "https://open.er-api.com/*",
+    "https://generativelanguage.googleapis.com/*",
+    "https://api.openai.com/*",
+    "https://api.groq.com/*",
+    "https://openrouter.ai/*"
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}

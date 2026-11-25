@@ -1,0 +1,33 @@
+{
+  "name": "waqar-chrome-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal Chrome New Tab & Command Center Dashboard with real live widgets, productivity tools, AI assistant, and Windows system telemetry.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "helper": "node helper/server.mjs",
+    "start": "node helper/server.mjs --serve-dist"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "lucide-react": "^0.511.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "@types/chrome": "^0.0.320",
+    "@types/js-yaml": "^4.0.9",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
